@@ -20,7 +20,7 @@ const HomePage = () => {
 
 	const clickHandler = (username: string) => {
 		fetchRepos(username)
-		// setSearch(username)
+		setSearch('')
 		setDropdown(false)
 	}
 
